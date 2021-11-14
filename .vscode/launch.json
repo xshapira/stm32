@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/maxshapira/Documents/PlatformIO/Projects/211113-202810-stm32cube-ll-blink/.pio/build/nucleo_f401re/firmware.elf",
+            "projectEnvName": "nucleo_f401re",
+            "toolchainBinDir": "/Users/maxshapira/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/maxshapira/.platformio/platforms/ststm32/misc/svd/STM32F401xE.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/maxshapira/Documents/PlatformIO/Projects/211113-202810-stm32cube-ll-blink/.pio/build/nucleo_f401re/firmware.elf",
+            "projectEnvName": "nucleo_f401re",
+            "toolchainBinDir": "/Users/maxshapira/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/maxshapira/.platformio/platforms/ststm32/misc/svd/STM32F401xE.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/Users/maxshapira/Documents/PlatformIO/Projects/211113-202810-stm32cube-ll-blink/.pio/build/nucleo_f401re/firmware.elf",
+            "projectEnvName": "nucleo_f401re",
+            "toolchainBinDir": "/Users/maxshapira/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/maxshapira/.platformio/platforms/ststm32/misc/svd/STM32F401xE.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
